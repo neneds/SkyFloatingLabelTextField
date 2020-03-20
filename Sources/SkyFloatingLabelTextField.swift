@@ -91,7 +91,7 @@ open class SkyFloatingLabelTextField: UITextField { // swiftlint:disable:this ty
     }
 
     /// A `ErrorMessagePlacement` value that determines where the error message will be displayed.
-    open var errorMessagePlacement: ErrorMessagePlacement = .default {
+    open dynamic var errorMessagePlacement: ErrorMessagePlacement = .default {
         didSet {
             updateControl()
             updatePlaceholder()
@@ -99,7 +99,7 @@ open class SkyFloatingLabelTextField: UITextField { // swiftlint:disable:this ty
     }
 
     /// An `NSTextAlignment` value that determines the error label text alignment.
-    open var errorLabelAlignment: NSTextAlignment? {
+    open dynamic var errorLabelAlignment: NSTextAlignment? {
         didSet {
             updateTextAligment()
         }

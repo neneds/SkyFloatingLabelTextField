@@ -72,3 +72,10 @@ xcuserdata
 *.moved-aside
 DerivedData
 *.xcuserstate
+
+### SwiftPackageManager ###
+Packages
+.build/
+xcuserdata
+DerivedData/
+*.xcodeproj
